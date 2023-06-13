@@ -250,15 +250,21 @@ width: 30%;
 .form input{
   padding: 0px 16px;
   margin: 16px 0px;
-  width: 100%;
+  width: 126%;
   font-size: 1rem;
   border-radius: 6px;
   padding: 6px;
 }
+
+
 .btn-dark{
   color: black;
   border: 2px double black;
 }
 #text-t-a{
   font-weight: 700;
+  width: 366px;
+}
+.text-footer{
+  text-align: center;
 }
