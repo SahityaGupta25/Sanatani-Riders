@@ -1,6 +1,6 @@
 /* Font LInK */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 /* ----------------------------------------------------------------------------------------------------------- */
 
 /* CSS RESET */
@@ -162,4 +162,103 @@ width: 30%;
     background-color: orangered;
    
 
+}
+/*<!-- ------------------------------------------------------------------------------------------------------- -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ------------------------------------------------------------------------------------------------------- -->*/
+
+/* Section - 2 */
+/* ____________ */
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  height: 1000px;
+  
+}
+.tag{
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  
+}
+.section-left{
+  flex-direction: row-reverse;
+}
+/* Pics  */
+/* _______ */
+.th-1{
+  height: 666px;
+  width: 507px;
+  margin: 0px 66px 0px 0px;
+}
+.th-2{
+  height: 666px;
+  width: 507px;
+  margin: 0px 0px 0px 93px;
+}
+.th-3{
+  height: 666px;
+  width: 507px;
+  margin: 0px 66px 0px 0px;
+}
+.th-4{
+  height: 666px;
+  width: 507px;
+  margin: 0px 0px 0px 93px;
+}
+.th-5{
+  height: 666px;
+  width: 507px;
+  margin: 0px 66px 0px 0px;
+}
+.th-6{
+  height: 666px;
+  width: 324px;
+  margin: 93px 0px 0px 93px;
+}
+/* Para */
+.paras{
+  margin:  93px 0px 0px 0px;
+}
+/* Image Class */
+.rider{
+  border: 6.6px double black;
+  border-radius: 16px;
+
+}
+/* Contact-Section */
+/* ________________ */
+
+.contact{
+  height: 69vh;
+  background-color: wheat;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.text-center{
+  text-align: center;
+}
+.contact .form{
+  max-width: 226px;
+  margin: auto;
+}
+.form input{
+  padding: 0px 16px;
+  margin: 16px 0px;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding: 6px;
+}
+.btn-dark{
+  color: black;
+  border: 2px double black;
+}
+#text-t-a{
+  font-weight: 700;
 }
