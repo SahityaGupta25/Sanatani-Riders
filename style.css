@@ -124,7 +124,7 @@ height: 100vh;
     align-items: center;
     color: aliceblue;
     max-width: 50%;
-    margin: auto;
+    margin:  auto;
     height: 66%;
     
 }
@@ -146,6 +146,7 @@ height: 100vh;
     text-align: center;
     color: orangered;
     font-weight: 600;
+    padding-top: 66px;
 
 }
 .small-text{
@@ -304,7 +305,10 @@ width: 30%;
   .burger{
     display: block;
   }
-  /* .height-nav{
-    height: 72px;
-  } */
+  .height-nav{
+    height: 93px;
+  }
+  .visibility-class{
+    opacity: 0;
+  }
 }
